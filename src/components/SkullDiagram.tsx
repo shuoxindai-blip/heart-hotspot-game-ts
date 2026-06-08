@@ -36,7 +36,7 @@ export function SkullDiagram({ game, state }: SkullDiagramProps) {
         <div className="absolute inset-2 flex items-center justify-center">
           <div className="diagram-inner-exact relative flex max-w-none items-center justify-center" style={imageLayout}>
             <img
-              className="block h-full w-full select-none object-contain drop-shadow-[0_10px_18px_rgba(15,23,42,0.12)]"
+              className="block h-full w-full select-none object-contain"
               src={game.asset.src}
               alt={game.asset.alt}
               draggable={false}
